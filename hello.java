@@ -88,7 +88,6 @@ public class hello{
 */
 
 public class hello{
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Principle: ");
