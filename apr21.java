@@ -1,7 +1,7 @@
-// import java.util.Arrays;
+import java.util.Arrays;
 
-// public class apr21 {
-//     public static void main(String[] args) {
+public class apr21 {
+    public static void main(String[] args) {
 //         String myString="MyName";
 //         // String myString2= new String("MyName");
 //         String myString2="MyName2";
@@ -9,9 +9,9 @@
 //         String myNewString= myString.concat(myString2);
 //         int lenOfString= myNewString.length();
 //         char myChar= myString.charAt(2);
-//         String mySentence="Hello my name is abc";
-//         String[] words= mySentence.split(" ");
-//         System.out.println(Arrays.toString(words));
+        String mySentence="Hello my name is abc";
+        String[] words= mySentence.split(" ");
+        System.out.println(Arrays.toString(words));
 //         String newSubString1= myString.substring(1,4);
 //         System.out.println(newSubString1);
 //         System.out.println(myString.toLowerCase());
@@ -25,6 +25,6 @@
 //         System.out.println(myString.indexOf("E"));
 //         System.out.println(myString.lastIndexOf("E"));
 //         System.out.println(color.replace("E", "A"));
-//         }
-//     }
+        }
+    }
 

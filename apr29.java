@@ -30,10 +30,12 @@ public class apr29 {
         System.out.println("Simple interest: "+ simple_i);
     }
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
+        @SuppressWarnings("unused")
         int a = sc.nextInt();
         System.out.print("Enter Principle: ");
         int pi = sc.nextInt();
