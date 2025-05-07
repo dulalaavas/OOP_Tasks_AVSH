@@ -24,15 +24,14 @@ public class May5{
         System.out.print("Enter your age: ");
         int age = sc.nextInt();
 
+        Vote(age);
+
         System.out.print("Enter Principle: ");
         double pi = sc.nextDouble();
         System.out.print("Enter Time: ");
         double ti = sc.nextDouble();
         System.out.print("Enter Rate: ");
         double ra = sc.nextDouble();
-        
-
-        Vote(age);
 
         SimpleInterest(pi, ti, ra);
 
