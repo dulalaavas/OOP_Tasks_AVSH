@@ -35,6 +35,7 @@ public class May13{
                 System.out.print(value);
             }
             System.out.println("hi?");
-        }        
+        }
+        sc.close();        
     }
 }
