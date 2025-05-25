@@ -5,7 +5,6 @@ public class Students{
     int age;
     int studentId;
     void printDetails(){
-        System.out.println("Name: " +  name + "Age: " + age + "Student ID: "+studentId);
+        System.out.println("Name: " +  name + " Age: " + age + " Student ID: "+studentId);
     }
-
 }
